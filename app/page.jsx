@@ -12,8 +12,8 @@ import Link from 'next/link';
 
 export default function HomePage() {
 	return (
-		<>
+		<div className='bg-gray-800'>
 			<h1>AreWelcome</h1>
-		</>
+		</div>
 	);
 }
