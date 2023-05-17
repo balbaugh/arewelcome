@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Showcase from './components/Showcase';
 
 // METADATA
 // THIS IS LOCATED IN layout.jsx, BUT CAN BE INDIVIDUAL TO EACH PAGE AS WELL
@@ -13,6 +14,7 @@ import Link from 'next/link';
 export default function HomePage() {
 	return (
 		<div className='bg-gray-800'>
+			<Showcase />
 			<h1>AreWelcome</h1>
 		</div>
 	);
