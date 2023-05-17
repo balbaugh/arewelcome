@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
 		<html lang='en'>
 			<body className={`${inter.className} bg-gray-800`}>
 				<Header />
-				<div className=''>{children}</div>
+				<div className='bg-inherit'>{children}</div>
 				<Footer />
 			</body>
 		</html>
